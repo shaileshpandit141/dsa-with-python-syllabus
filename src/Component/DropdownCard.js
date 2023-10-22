@@ -3,7 +3,8 @@ export default function DropdownCard(Data) {
         `
         <div class="roadmaps">
             <button ${'data-state' + Data.id}="true" id="${'data-state' + Data.id}" class="heading--cont--btn">
-                <h3>${Data.heading}</h3>
+                <span class="module--tag">Module:${Data.id}</span>
+                <h3> ${Data.heading}</h3>
                 <figure class="icon--cont">
                     <img id="${'icon--' + Data.id}" src="./media/angle-small-up.svg" alt="" width="24px" height="24px">
                 </figure>
