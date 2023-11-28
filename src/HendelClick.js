@@ -1,4 +1,4 @@
-const headingEls = document.querySelectorAll('.roadmaps')
+const headingEls = document.querySelectorAll('.heading--cont--btn')
 
 function hendelClick() {
     for (let index = 0; index < headingEls.length; index++) {
@@ -16,7 +16,7 @@ function hendelClick() {
             if (clickState === 'true') {
                 clickStateEl.setAttribute(attName, 'false')
                 iconEl.style.transform = 'rotateZ(180deg)'
-                subHeadingContainerEl.style.height = '250px'
+                subHeadingContainerEl.style.height = 'fit-content'
             } else {
                 clickStateEl.setAttribute(attName, 'true')
                 iconEl.style.transform = 'rotateZ(0deg)'
