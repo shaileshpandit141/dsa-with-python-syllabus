@@ -9,8 +9,9 @@ function hendelClick() {
         let attName = `${'data-state' + (index+1)}`
         let clickStateEl = document.getElementById(attName)
         
-        headingEls[index].addEventListener('click', () => {
-
+        headingEls[index].addEventListener('click', (event) => {
+            event.preventDefault()
+            
             let clickState = clickStateEl.getAttribute(attName)
 
             if (clickState === 'true') {
