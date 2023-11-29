@@ -124,6 +124,10 @@ html::-webkit-scrollbar {
     transition: background-color 0.3s ease-in-out;
 }
 
+.activeBg {
+    background-color: #e4e4e4;
+}
+
 .heading--cont--btn h3 {
     color: #000;
     flex: 1;
@@ -177,7 +181,7 @@ html::-webkit-scrollbar {
 
 
 .module--tag {
-    color: rgb(0, 73, 73);
+    color: #004949;
     padding: 8px 0px 8px 8px;
     font-size: var(--BODY--M--SIZE);
     letter-spacing: var(--BODY--M--LETTER--SPACING);
