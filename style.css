@@ -1,8 +1,10 @@
 /* || Roboto Fonts*/
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
+
 /* || Poppins Fonts*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 
 /* || RESET */
 *,
@@ -53,6 +55,7 @@ button {
     font-family: "Roboto", Arial, Helvetica, sans-serif;
 }
 
+
 /* || Body  */
 body {
     background-color: #2c2c2c;
@@ -66,9 +69,11 @@ body {
     align-items: center;
 }
 
+
 html::-webkit-scrollbar {
     display: none;
 }
+
 
 /* || Main Container Styles */
 #root {
@@ -79,6 +84,7 @@ html::-webkit-scrollbar {
     justify-content: center;
 }
 
+
 .outer--section {
     width: 100%;
     display: flex;
@@ -86,6 +92,7 @@ html::-webkit-scrollbar {
     align-items: center;
     justify-content: center;
 }
+
 
 .inner--section {
     width: 92%;
@@ -95,12 +102,27 @@ html::-webkit-scrollbar {
     justify-content: center;
 }
 
+
 .main--heading {
     margin-block: 2rem;
     font-size: var(--TITLE--SIZE);
     line-height: var(--TITLE--LINE--HEIGHT);
     letter-spacing: var(--TITLE--LETTER--SPACING);
 }
+
+
+.inner--section .discription {
+    font-size: var(--BODY--M--SIZE);
+    letter-spacing: var(--BODY--M--LETTER--SPACING);
+    line-height: var(--BODY--M--LINE-HEIGHT);
+    width: 100%;
+    max-width: 750px;
+    min-width: 0;
+    text-align: justify;
+    margin-bottom: 2rem;
+    opacity: .6;
+}
+
 
 .roadmaps--cont {
     display: flex;
@@ -110,6 +132,7 @@ html::-webkit-scrollbar {
     row-gap: 5px;
 }
 
+
 .roadmaps {
     width: 100%;
     height: fit-content;
@@ -118,6 +141,7 @@ html::-webkit-scrollbar {
     justify-content: center;
     row-gap: 2px;
 }
+
 
 .heading--cont--btn {
     color: azure;
@@ -132,12 +156,15 @@ html::-webkit-scrollbar {
     transition: background-color 0.3s ease-in-out;
 }
 
+
 .activeBg {
     background-color: #2736367c;
 }
 
+
 .heading--cont--btn h3 {
     color: azure;
+    opacity: .8;
     flex: 1;
     padding: 8px;
     font-size: var(--LABLE--SIZE);
@@ -147,9 +174,11 @@ html::-webkit-scrollbar {
     text-align: start;
 }
 
+
 .heading--cont--btn .icon--cont {
     padding: 8px 8px 8px 0;
 }
+
 
 .icon--cont img {
     width: 24px;
@@ -158,7 +187,9 @@ html::-webkit-scrollbar {
     object-position: center;
     transition: transform 0.3s ease-in-out;
     /* transform: rotateZ(180deg); */
+    opacity: .8;
 }
+
 
 .sub--heading--cont {
     background-color: #2d3131;
@@ -171,13 +202,16 @@ html::-webkit-scrollbar {
     transition: height 0.3s ease-in;
 }
 
+
 .sub--heading--cont::-webkit-scrollbar {
     display: none;
 }
 
+
 .ol {
     margin-left: 2.5rem;
 }
+
 
 .ol li {
     color: azure;
