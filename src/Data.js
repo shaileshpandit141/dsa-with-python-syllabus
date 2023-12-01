@@ -101,4 +101,21 @@ export default [
             'Dynamic Programing'
         ]
     },
+    {
+        id: 11,
+        heading: "Practical Application",
+        subHeadings: [
+            'Participate in competitive programming platforms like Codeforces, LeetCode, or HackerRank to practice DSA skills.',
+            'Apply your knowledge to real-world projects or open-source contributions that require DSA skills.',
+            'Prepare for technical interviews by practicing common DSA questions and solving coding challenges.',
+            'Explore how DSA is applied in data science and machine learning for optimizing algorithms and data manipulation.',
+        ]
+    },
+    {
+        id: 12,
+        heading: "Benefit From",
+        subHeadings: [
+            'Remember that consistency and practice are essential. Start with the basics and gradually progress to more advanced topics. It is also beneficial to combine theoretical knowledge with practical implementation to reinforce your understanding of DSA with Python.'
+        ]
+    },
 ]
