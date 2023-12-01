@@ -56,6 +56,15 @@ button {
 }
 
 
+html {
+    scroll-behavior: smooth;
+}
+
+html::-webkit-scrollbar {
+    display: none;
+}
+
+
 /* || Body  */
 body {
     background-color: #2c2c2c;
@@ -69,10 +78,6 @@ body {
     align-items: center;
 }
 
-
-html::-webkit-scrollbar {
-    display: none;
-}
 
 
 /* || Main Container Styles */
@@ -132,6 +137,9 @@ html::-webkit-scrollbar {
 
 
 .roadmaps--cont {
+    width: 100%;
+    max-width: 750px;
+    min-width: 0;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -228,6 +236,8 @@ html::-webkit-scrollbar {
     letter-spacing: var(--BODY--M--LETTER--SPACING);
     line-height: var(--BODY--M--LINE-HEIGHT);
     font-weight: 400;
+    width: 100%;
+    max-width: inherit;
 }
 
 
